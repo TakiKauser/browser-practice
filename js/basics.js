@@ -4,7 +4,7 @@
 const delayedOutput = () => {
     console.log("This output is shown 3.5 seconds delayed after clicking the button!");
 }
-document.getElementById("delayed-output"), addEventListener("click", () => {
+document.getElementById("delayed-output").addEventListener("click", () => {
     setTimeout(delayedOutput, 3500);
 });
 
